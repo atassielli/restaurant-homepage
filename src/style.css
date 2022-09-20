@@ -1,0 +1,12 @@
+body{
+    background-image: url("pizza-background.jpeg");
+}
+
+.header {
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
