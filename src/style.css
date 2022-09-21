@@ -9,4 +9,36 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    gap: 10px;
+}
+
+.footerText {
+    color: white;
+    font-size: 20px;
+}
+
+.footerIcon {
+    height: 20px;
+    width: 20px;
 }

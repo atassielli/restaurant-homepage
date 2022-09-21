@@ -1,4 +1,4 @@
 import './style.css';
-import home from './homepage.js';
+import home from './pageLoader.js';
 
 home()
