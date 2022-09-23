@@ -2,6 +2,11 @@ body{
     background-image: url("pizza-background.jpeg");
 }
 
+.webpage {
+    display: grid;
+    grid-template: 138px 1fr 5px / 100%;
+}
+
 .header {
     color: white;
     font-size: xx-large;
@@ -14,11 +19,28 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     gap: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .buttons {
     display: flex;
     gap: 10px;
+}
+
+.content {
+    background-color: rgba(76, 74, 74, 0.5);
+    grid-area: 2 / 1 / 3 / 2;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contentHeader {
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 .footer {
@@ -30,6 +52,7 @@ body{
     align-items: center;
     position: fixed;
     bottom: 0;
+    left: 0px;
     gap: 10px;
 }
 

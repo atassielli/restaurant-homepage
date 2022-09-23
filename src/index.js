@@ -1,4 +1,15 @@
 import './style.css';
-import home from './pageLoader.js';
+import pageLoader from './pageLoader.js';
+import home from './homepage.js';
 
-home()
+pageLoader();
+
+let homeButton = document.querySelector('.homeButton');
+homeButton.addEventListener('click', () => {
+    home();
+})
+
+let contactButton = document.querySelector('.contactButton');
+contactButton.addEventListener('click', () => {
+    console.log('working');
+})
