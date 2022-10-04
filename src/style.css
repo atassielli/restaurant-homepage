@@ -36,6 +36,8 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .contentHeader {
@@ -121,4 +123,20 @@ body{
     margin: 0px;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
 }
